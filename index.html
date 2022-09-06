@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Sample forms</title>
+    </head>
+    <body>
+        <form method="post">
+            <fieldset>
+                <legend>Add user</legend>
+                    <div>
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="first_name">
+                    </div>
+
+                    <div>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="last_name">
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="Email">
+                    </div>
+
+                    <div>
+                        <label for="status">Status</label>
+                        <select id="Status">
+                            <option value="student">Student</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="guest">Guest</option>
+                        </select>
+                    </div>
+
+                    <p>Choose your favourite programming language</p>
+                    <div>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">HTML</label>
+                            <br>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <label for="css">CSS</label>
+                            <br>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="javascript">JavaScript</label>
+                            <br>
+                    </div>
+
+                    <div>
+                        <label for="comments">Comments</label>
+                            <br>
+                        <textarea cols="50" rows="5"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="newsletter">Sign up for our newsletter</label>
+                        <input type="checkbox" id="newsletter" value="Sign_up_newsletter"
+                    </div>
+
+                    <div>
+                        <label for="terms">I agree to the Terms and Conditions</label>
+                        <input type="checkbox" id="terms" value="terms_and_cond"
+                    </div>
+
+                    <div>
+                        <label for="date">Current date</label>
+                        <input type="date" id="date" name="date">
+                        <button type="submit">Add me!</button>
+                    </div>
+
+
+
+            </fieldset>
+        </form>
+    </body>
+
+</html>
